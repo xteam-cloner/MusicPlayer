@@ -27,8 +27,7 @@ from pyrogram import Client, filters
 from pytgcalls.types import Update, ChatUpdate
 from pytgcalls.types.stream import StreamEnded
 from core.decorators import language, register, only_admins, handle_error
-from pytgcalls.exceptions import (
-    NotInCallError, GroupCallNotFound, NoActiveGroupCall)
+from pytgcalls.exceptions import NoActiveGroupCall
 from core import (
     app, ytdl, safone, search, is_sudo, is_admin, get_group, get_queue,
     pytgcalls, set_group, set_title, all_groups, clear_queue, check_yt_url,
